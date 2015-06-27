@@ -1,0 +1,36 @@
+{
+  "name": "exploring_redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server --port 9090 --config webpack.config.dev.js --hot --progress --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelchiti/exploring_redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelchiti/exploring_redux/issues"
+  },
+  "homepage": "https://github.com/rafaelchiti/exploring_redux#readme",
+  "dependencies": {
+    "babel": "^5.6.14",
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.2.2",
+    "babel-runtime": "^5.6.15",
+    "html-webpack-plugin": "^1.5.2",
+    "node-libs-browser": "^0.5.2",
+    "react": "^0.13.3",
+    "react-hot-loader": "^1.2.7",
+    "react-router": "1.0.0-beta2",
+    "redux": "^0.12.0",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.9.0",
+    "webpack-notifier": "^1.2.1",
+    "whatwg-fetch": "^0.9.0"
+  }
+}
